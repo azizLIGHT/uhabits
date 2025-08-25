@@ -6,13 +6,26 @@ on:
   push:
     paths-ignore:
     - '**.md'
+  workflow_dispatch: # Add manual trigger
 jobs:
   Test:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest  # Changed from self-hosted
     timeout-minutes: 30
     steps:
     - name: Check out source code
       uses: actions/checkout@v4
+
+    - name: Set up JDK 8  # Add JDK setup
+      uses: actions/setup-java@v4
+      with:
+        java-version: '8'
+        distribution: 'temurin'
+        
+    - name: Setup Android SDK  # Add Android SDK setup
+      uses: android-actions/setup-android@v3
+
+    - name: Grant execute permission for build script  # Add execute permission
+      run: chmod +x ./build.sh
 
     - name: Build project
       run: ./build.sh build
@@ -28,4 +41,3 @@ jobs:
         path: |
           build/*log
           uhabits-android/build/outputs
-
