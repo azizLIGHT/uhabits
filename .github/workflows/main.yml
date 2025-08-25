@@ -1,15 +1,11 @@
-name: Build APK Only
+name: Build & Release APK
 on:
   push:
-    paths-ignore:
-    - '**.md'
-  pull_request:
-    paths-ignore:
-    - '**.md'
+    branches: [ group_separate ]
   workflow_dispatch:
 
 jobs:
-  build:
+  build-and-release:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -31,8 +27,41 @@ jobs:
     - name: Build debug APK
       run: ./gradlew :uhabits-android:assembleDebug --stacktrace
 
-    - name: Upload APK artifact
-      uses: actions/upload-artifact@v4
+    - name: Get current date
+      id: date
+      run: echo "date=$(date +'%Y-%m-%d-%H%M')" >> $GITHUB_OUTPUT
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        name: uhabits-debug-apk
-        path: uhabits-android/build/outputs/apk/debug/uhabits-android-debug.apk
+        tag_name: build-${{ steps.date.outputs.date }}
+        release_name: uhabits with Groups - ${{ steps.date.outputs.date }}
+        body: |
+          🎉 **uhabits with Habit Groups Feature**
+          
+          This is an unofficial build of uhabits with the habit grouping feature from PR #2020.
+          
+          **Features:**
+          - All original uhabits features
+          - ✨ New: Organize habits into groups
+          - Based on dharux's group_separate branch
+          
+          **Known Issues:**
+          - Editing habits within groups may crash (remove from group → edit → re-add as workaround)
+          
+          Install the APK below on your Android device.
+        draft: false
+        prerelease: true
+
+    - name: Upload APK to Release
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: uhabits-android/build/outputs/apk/debug/uhabits-android-debug.apk
+        asset_name: uhabits-groups-debug.apk
+        asset_content_type: application/vnd.android.package-archive
