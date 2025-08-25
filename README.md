@@ -1,3 +1,51 @@
+# 📱 uhabits with Collapsible Habit Groups
+
+> **Unofficial APK build of the habit grouping feature from [PR #2020](https://github.com/iSoron/uhabits/pull/2020)**
+
+⚠️ **BACKUP YOUR DATA FIRST** - No guarantees this won't mess up your habit data!
+
+**🚀 [Download APK here](https://github.com/azizLIGHT/uhabits/releases)** 📱
+
+⚠️ **BACKUP YOUR DATA FIRST** - No guarantees this won't mess up your habit data!
+
+## 📋 **Installation Steps:**
+1. **Backup:** In uhabits, go to Settings → "Export full backup"
+2. **Try Updating** over existing install. It didn't work for me though.
+3. **Uninstall** the original uhabits app if you can't update existing app
+4. **Install** the downloaded APK
+5. **Restore:** In the new app, go to Settings → "Import data"
+
+## ✨ Habit Groups Feature Overview:
+- **Create habit groups** with custom names, colors, reminders, and notes
+- **Add existing habits to groups** or create new sub-habits within groups  
+- **Smart layout** - ungrouped habits remain at the top, groups display below
+- **Collapsible group display** - tap to expand/collapse groups to save screen space
+- **Group statistics** - automatic scoring and frequency tracking for the entire group
+- **Drag & drop reordering** - manually organize habits and groups
+- **Widget & notification support** - groups work with existing uhabits widgets and reminders
+- **Visual organization** - sub-habits are visually indented to show hierarchy
+
+
+## 🖼️ Screenshots
+
+<img alt="" width="30%" src="https://private-user-images.githubusercontent.com/91258883/348557198-f59546a7-3b2d-4d21-83d7-ff04ea13fad2.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTYxMDEzNjEsIm5iZiI6MTc1NjEwMTA2MSwicGF0aCI6Ii85MTI1ODg4My8zNDg1NTcxOTgtZjU5NTQ2YTctM2IyZC00ZDIxLTgzZDctZmYwNGVhMTNmYWQyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODI1VDA1NTEwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA4MWVkMGI4YzRmNjJmM2YwMWM1YWYyYWMzZmM2N2FmODIxMGQxNzEyMjM5YTRmNmI0OGExMGRmODAyYWMxNDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.xbkmJifu1UTcB2KzAUy2qLQtETNwGijxBPhJBcYTHBI"> <img alt="" width="30%" src="https://private-user-images.githubusercontent.com/91258883/348557190-b3e80fde-83b3-4780-9ce9-ddd413350516.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTYxMDEzNjEsIm5iZiI6MTc1NjEwMTA2MSwicGF0aCI6Ii85MTI1ODg4My8zNDg1NTcxOTAtYjNlODBmZGUtODNiMy00NzgwLTljZTktZGRkNDEzMzUwNTE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODI1VDA1NTEwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVkMDMwNDAzZTEyYWI2MmY2NTdhMTVmYzhmZmMzZjQyNzVkNGQ3NzllMjc1ZTRjYzdjZWViYjdjYjc1NzVlZWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Z1ZK4RxBGdM7jivyDsV1n6JnVvy3Gn2bVuuThv0gNiw"> <img alt="" width="30%" src="https://private-user-images.githubusercontent.com/91258883/348557185-182d2304-6ce4-4096-8c04-526a37b6f557.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTYxMDEzNjEsIm5iZiI6MTc1NjEwMTA2MSwicGF0aCI6Ii85MTI1ODg4My8zNDg1NTcxODUtMTgyZDIzMDQtNmNlNC00MDk2LThjMDQtNTI2YTM3YjZmNTU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODI1VDA1NTEwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFmNTZkZDNlZDZiNjA0N2Y4NTQwMWE3ZDg5NjkyNjgxZjJkNDI4OTliYmM3NTI3ZGM0MTRjYmE0ZDRkMmQ5NTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.onmZHafhDCpEK0fVSPD0AYq1PvHPn1Q4iK-3zywxzXc"> <img alt="" width="30%" src="https://private-user-images.githubusercontent.com/91258883/348557179-02c8cf92-3275-41e4-a2da-7c2ea6954ad5.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTYxMDEzNjEsIm5iZiI6MTc1NjEwMTA2MSwicGF0aCI6Ii85MTI1ODg4My8zNDg1NTcxNzktMDJjOGNmOTItMzI3NS00MWU0LWEyZGEtN2MyZWE2OTU0YWQ1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODI1VDA1NTEwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMwYzg5OThmODVkNDBkYzRhMDI1MmVkNTc1MWI5ZTFmYmZlYzQ5MmQzZDBhNzk3YjI2Yjk2ZmUyYjQwZjdlNmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.7uCD8J_knd_CSkROp391MOJ8RdwULoS-Q0qv2uP1yoQ"> <img alt="" width="30%" src="https://private-user-images.githubusercontent.com/91258883/348557177-e35900d7-ab0a-42a7-90b9-cf932b59c3b1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTYxMDEzNjEsIm5iZiI6MTc1NjEwMTA2MSwicGF0aCI6Ii85MTI1ODg4My8zNDg1NTcxNzctZTM1OTAwZDctYWIwYS00MmE3LTkwYjktY2Y5MzJiNTljM2IxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODI1VDA1NTEwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUyODAyMjU2MjYwYTg4ZTNiNDgyODVjMDlhNWVkZWRhMGRlOThiY2QxZDI1ZTUyNmMxNzUxN2MxYTMzZjYyYjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.vZbHdp4bvy0ameEypttwdKmWL2bjSqhWxP7W90-QpQA"> <img alt="" width="30%" src="https://private-user-images.githubusercontent.com/91258883/348557165-fa0ac8cb-3d33-461e-941a-64859389cb4c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTYxMDEzNjEsIm5iZiI6MTc1NjEwMTA2MSwicGF0aCI6Ii85MTI1ODg4My8zNDg1NTcxNjUtZmEwYWM4Y2ItM2QzMy00NjFlLTk0MWEtNjQ4NTkzODljYjRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODI1VDA1NTEwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVlMWNjMmY4MTQ0NjEwMWUyZTFhN2E1MzkzODhhOWIzNmVlYzEzNTkwMWRmYmFhZWUyZDQ4NmM3ODFhMTZhN2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qQZ1CSu7j0KV-wzDW5lLENRMscmMTmx5NIqJ54vlllw">
+
+## ℹ️ About This Build
+- **Source:** Based on [@dharux](https://github.com/dharux)'s original work [here](https://github.com/dharux/uhabits/tree/group_separate)
+- **Status:** Point-in-time build with known bugs (see known issue on releases page)
+- **Support:** No ongoing maintenance or feature requests - use at your own risk
+
+## 🔨 Building Yourself
+If you want to build from source instead of using the pre-built APK:
+```bash
+git clone https://github.com/dharux/uhabits.git
+cd uhabits
+git checkout group_separate
+./gradlew :uhabits-android:assembleDebug
+```
+
+---
+
 <h1 align="center">Loop Habit Tracker</h1>
 <p align="center">
   <a href="https://github.com/iSoron/uhabits/actions?query=workflow%3A%22Build+%26+Test%22">
